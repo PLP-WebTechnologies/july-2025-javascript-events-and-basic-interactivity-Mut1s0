@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>🌐 Interactive Web Page</h1>
+
+    <!-- Part 1: Event Handling -->
+    <section>
+        <h2>Event Handling Example</h2>
+        <button id="toggleMessageBtn">Show Message</button>
+        <p id="message" style="display: none;">🎉 Hello, you just triggered an event!</p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section>
+        <h2>Interactive Features</h2>
+        
+        <!-- Light/Dark Mode Toggle -->
+        <button id="themeToggle">🌙 Toggle Dark Mode</button>
+        
+        <!-- Counter Game -->
+        <div>
+        <p>Counter: <span id="counter">0</span></p>
+        <button id="increaseBtn">Increase</button>
+        <button id="decreaseBtn">Decrease</button>
+        </div>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section>
+        <h2>Form Validation</h2>
+        <form id="signupForm">
+        <label>Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label>Email:</label>
+        <input type="text" id="email"><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <button type="submit">Submit</button>
+        </form>
+        <p id="formFeedback"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
